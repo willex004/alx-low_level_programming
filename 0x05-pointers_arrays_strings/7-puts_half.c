@@ -12,7 +12,7 @@ void puts_half(char *str)
 	while (*str != '\0')
 	{
 		l++;
-		str;
+		str++;
 	}
 
 	str -= (l / 2);
