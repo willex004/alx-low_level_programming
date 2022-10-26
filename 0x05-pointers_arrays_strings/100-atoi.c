@@ -29,7 +29,7 @@ int _atoi(char *s)
 		{
 			break;
 		}
-		c++;
+		a++;
 	}
 	b *= c;
 	return (b);
