@@ -25,7 +25,7 @@ int main(void)
 			a -= b;
 			printf("%c", b);
 		}
-		else it (a - b - 32 > 0)
+		else if (a - b - 32 > 0)
 		{
 			a -= b;
 			printf("%c", b);
