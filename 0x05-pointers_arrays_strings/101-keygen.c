@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int a = 4882;
+	int a = 2772;
 	int b;
 
 	srand(time(0));
