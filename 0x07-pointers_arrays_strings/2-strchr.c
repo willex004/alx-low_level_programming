@@ -23,7 +23,7 @@ char *_strchr(char *s, char c)
 			continue;
 		}
 	}
-	if (c == '\0' && s[a] =='\0')
+	if (c == '\0' && s[a] == '\0')
 	{
 		return (&s[a]);
 	}
