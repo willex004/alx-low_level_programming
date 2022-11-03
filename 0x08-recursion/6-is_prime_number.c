@@ -1,4 +1,5 @@
 #include "main.h"
+int prime_divisible(int n, int a);
 
 /**
  * is_prime_number - says if an integer is a prime number
