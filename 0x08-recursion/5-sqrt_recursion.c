@@ -1,13 +1,13 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * sqrt_operation - return the natural square root of a number.
+ * power_operation - return the natural square root of a number
  * @n: input number
  * @c: iterator
  * Return: square root or -1
  */
 
-int sqrt_operation(int n, int c)
+int power_operation(int n)
 {
 	if (c % (n/c) == 0)
 	{
@@ -33,5 +33,4 @@ int _sqrt_recursion(int n)
 		return (0);
 	if (n == 1)
 		return (1);
-	return (power_operation(n, 2));
 }
