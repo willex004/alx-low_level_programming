@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - printe the multiplication integers
+ * main - print the multiplication integers
  * @argc: argument count
  * @argv: argument vector
  * Retur: 0

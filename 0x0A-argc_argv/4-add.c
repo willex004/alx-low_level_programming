@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 	{
 		if (check(argv[a]))
 		{
-			b = atoi(argv[count]);
+			b = atoi(argv[a]);
 			c += b;
 		}
 		else
