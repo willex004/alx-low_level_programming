@@ -3,7 +3,7 @@
 /**
  * alloc_grid - allocates a grid, make and free space
  * @width: takes width of grid
- * #height: height of grid
+ * @height: height of grid
  * Return: grid with freed space
  */
 
