@@ -1,19 +1,17 @@
-#include "main.h"
+#include "main"
+#include "stdio.h"
 
 /**
- * main - print the nameof the program
- * @argc: counts arguments
+ * *main - prints name of the program
+ * @argc: count arguments
  * @argv: arguments
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int a;
-
-	for (a = 0; a < argc; a++)
-	{
-		printf("%s\n", argv[a]);
-	}
+	(void) argc;
+	printf("%s\n", argv[0]);
+	
 	return (0);
 }
